@@ -7,3 +7,4 @@ class Person(Model):
 
     class Meta:
         database = db # This model uses the "people.db" database.
+        db_table = 'pp_people'

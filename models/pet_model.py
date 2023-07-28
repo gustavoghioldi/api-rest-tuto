@@ -9,3 +9,4 @@ class Pet(Model):
 
     class Meta:
         database = db
+        db_table = 'pp_pets'
